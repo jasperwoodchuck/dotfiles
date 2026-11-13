@@ -1,0 +1,58 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "languages": {
+    "TypeScript": {
+      "tab_size": 4,
+      "auto_indent": "syntax_aware"
+    }
+  },
+  "format_on_save": "on",
+  "minimap": {
+    "max_width_columns": 100,
+    "show": "auto"
+  },
+  "tabs": {
+    "show_close_button": "hidden",
+    "file_icons": true,
+    "git_status": true
+  },
+  "cursor_shape": "underline",
+  "git_panel": {
+    "default_width": 320.0
+  },
+  "outline_panel": {
+    "default_width": 320.0
+  },
+  "disable_ai": true,
+  "project_panel": {
+    "hide_root": true,
+    "default_width": 320.0,
+    "dock": "left"
+  },
+  "icon_theme": "Catppuccin Macchiato",
+  "ui_font_weight": 400.0,
+  "ui_font_family": "JetBrainsMono Nerd Font Propo",
+  "buffer_font_family": "JetBrainsMono Nerd Font Propo",
+  "agent_buffer_font_family": "JetBrainsMono Nerd Font Propo",
+  "agent_ui_font_family": "JetBrainsMono Nerd Font Propo",
+  "agent_ui_font_size": 15.0,
+  "terminal": {
+    "font_family": "JetBrainsMono Nerd Font Propo",
+    "font_size": 15.0
+  },
+  "cli_default_open_behavior": "new_window",
+  "ui_font_size": 15.0,
+  "buffer_font_size": 15.0,
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Catppuccin Macchiato - No Italics",
+  },
+}

@@ -1,0 +1,92 @@
+[general]
+font-sans = "JetBrains Mono"
+
+[bar]
+scale = 0.800000011920929
+padding = 0.0
+padding-ends = 0.0
+bg = "bg-base"
+button-variant = "basic"
+button-label-weight = "bold"
+button-rounding = "none"
+button-border-location = "none"
+dropdown-shadow = false
+
+[[bar.layout]]
+monitor = "*"
+show = true
+left = [
+    "hyprland-workspaces",
+    "systray",
+]
+center = [
+    "clock",
+    "notifications",
+    "dashboard",
+]
+right = [
+    "netstat",
+    "network",
+    "bluetooth",
+    "volume",
+    "hyprsunset",
+    "cpu",
+    "ram",
+]
+
+[styling]
+scale = 1.0
+rounding = "none"
+
+[styling.palette]
+bg = "#181926"
+surface = "#1e2030"
+elevated = "#24273a"
+fg = "#cad3f5"
+fg-muted = "#b8c0e0"
+primary = "#b7bdf8"
+red = "#ed8796"
+yellow = "#eed49f"
+green = "#a6da95"
+blue = "#8aadf4"
+
+[modules.bluetooth]
+label-show = false
+
+[modules.dashboard]
+icon-override = "md-bubble_chart-symbolic"
+
+[modules.hyprland-workspaces]
+min-workspace-count = 4
+workspace-padding = 0.6000000238418579
+
+[modules.hyprsunset]
+temperature = 6000
+label-show = false
+
+[modules.mango-workspaces]
+min-tag-count = 4
+
+[modules.network]
+label-max-length = 0
+
+[modules.netstat]
+poll-interval-ms = 1000
+
+[modules.notifications]
+popup-position = "top-center"
+
+[modules.ram]
+poll-interval-ms = 3000
+left-click = "ghostty -e btop"
+
+[modules.systray]
+icon-scale = 1.2000000476837158
+
+[osd]
+position = "top"
+margin = 0.0
+border = false
+
+[wallpaper]
+engine-enabled = false
